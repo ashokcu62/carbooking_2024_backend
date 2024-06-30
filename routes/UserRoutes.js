@@ -22,7 +22,7 @@ router.post('/', async (req, res,) => {
 
 })
 
-router.post('/login', async (req, res,) => {
+router.post('/:login', async (req, res,) => {
   try {
     const email = req.body.email
     const password = req.body.password
